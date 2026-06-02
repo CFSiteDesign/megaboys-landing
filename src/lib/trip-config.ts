@@ -1,7 +1,8 @@
-import heroImg from "@/assets/hero-thailand.jpg";
-import bangkokImg from "@/assets/bangkok.jpg";
-import chiangmaiImg from "@/assets/chiangmai.jpg";
-import paiImg from "@/assets/pai.jpg";
+import heroImg from "@/assets/hero-indonesia.jpg";
+import uluwatuImg from "@/assets/uluwatu.jpg";
+import nusaImg from "@/assets/nusa-lembongan.jpg";
+import giliImg from "@/assets/gili-t.jpg";
+import lombokImg from "@/assets/kuta-lombok.jpg";
 import vibePubcrawlImg from "@/assets/vibe-pubcrawl.jpg";
 import vibeWaterfallImg from "@/assets/vibe-waterfall.jpg";
 import vibeTubingImg from "@/assets/vibe-tubing.jpg";
@@ -77,81 +78,91 @@ export interface TripConfig {
 
 export const tripConfig: TripConfig = {
   creator: {
-    name: "DAVID",
-    instagram: "@whatdaviddoesnext",
-    instagramUrl: "https://instagram.com/whatdaviddoesnext",
-    tiktok: "@whatdaviddoesnext",
-    tiktokUrl: "https://tiktok.com/@whatdaviddoesnext",
+    name: "MEGA BOYS",
+    instagram: "@megaboys",
+    instagramUrl: "https://instagram.com/megaboys",
+    tiktok: "@megaboys",
+    tiktokUrl: "https://tiktok.com/@megaboys",
   },
   poweredBy: {
     name: "Mad Monkey",
     logo: logoImg,
   },
   trip: {
-    title: "Northern Thailand Takeover",
+    title: "Mega Boys Indonesia Takeover",
     highlightColor: "red",
-    dates: "OCT 3 - OCT 13",
-    durationDays: 11,
-    locationCount: 3,
-    locationLabel: "across Northern Thailand",
+    dates: "JUL 25 - AUG 8",
+    durationDays: 15,
+    locationCount: 4,
+    locationLabel: "across Bali, Gili & Lombok",
     heroImage: heroImg,
   },
   stripeBookingUrl: "https://buy.stripe.com/aFaeVc2A38ruaik85ke7t20",
   spots: {
-    total: 12,
-    remainingText: "ONLY 12 SPOTS LEFT!",
+    total: 50,
+    remainingText: "ONLY 50 SPOTS!",
   },
   pricing: {
     currency: "£",
-    total: 489,
-    deposit: 163,
+    total: 950,
+    deposit: 316,
     instalments: [
-      { amount: 163, due: "05/09" },
-      { amount: 163, due: "26/09" },
+      { amount: 316, due: "27/06" },
+      { amount: 316, due: "18/07" },
     ],
-    depositDeadline: "22/08",
+    depositDeadline: "20/06",
     minTravellers: 12,
   },
   locations: [
     {
-      name: "Bangkok",
+      name: "Uluwatu",
       daysLabel: "Days 1-3",
-      duration: "3 Days (Oct 3-5)",
-      image: bangkokImg,
+      duration: "3 Days (Jul 25-27)",
+      image: uluwatuImg,
       description:
-        "Kick off in Bangkok — karaoke nights, the legendary Khao San Road pub crawl, canal cruises on the Chao Phraya, and an overnight train north.",
+        "Clifftop sunsets, surf lessons, sauna sessions and the legendary Uluwatu pub crawl. Bali at its best.",
       highlights: [
-        "Day 1 (03/10) — Sun: Arrive in Bangkok. Group karaoke sing-along, then hit Khao San Road for the ultimate pub crawl.",
-        "Day 2 (04/10) — Mon: Shake off the hangover and explore Bangkok city. Pub quiz in the evening.",
-        "Day 3 (05/10) — Tue: Canal cruise along the Chao Phraya River, then board the overnight train to Chiang Mai.",
+        "Day 1 (25/07) — Sun: Arrive at Denpasar (DPS) and self-transfer to Mad Monkey Uluwatu. Welcome Sunset at Panorama Point (5PM–7:30PM).",
+        "Day 2 (26/07) — Mon: Fuel up at breakfast then hit the waves with a Surf Lesson (9AM–11AM). Free afternoon to explore Uluwatu.",
+        "Day 3 (27/07) — Tue: Mt Batur Sunrise Trek (1:30AM–11AM). Recover in the sauna, hot tub and ice baths before the Uluwatu Pub Crawl.",
       ],
     },
     {
-      name: "Chiang Mai",
-      daysLabel: "Days 4-7",
-      duration: "4 Days (Oct 6-9)",
-      image: chiangmaiImg,
+      name: "Nusa Lembongan",
+      daysLabel: "Days 4-6",
+      duration: "3 Days (Jul 28-30)",
+      image: nusaImg,
       description:
-        "Northern Thailand's adventure capital — elephants, waterfalls, mountain temples, BBQ buffets and the legendary Mad Challenge.",
+        "Crystal-clear water, island hopping around Nusa Penida, luxury pool, ice baths and one big pool party.",
       highlights: [
-        "Day 4 (06/10) — Wed: Arrive Chiang Mai early. Power nap, then Chiang Mai Grand Canyon Water Park. Nightly 'Mad Challenge' for those who can hack it.",
-        "Day 5 (07/10) — Thu: Elephant Sanctuary and Sticky Waterfall tour. Pool tournament back at the hostel.",
-        "Day 6 (08/10) — Fri: Free day to explore Chiang Mai. BBQ buffet at 4PM or the Chiang Mai ultimate pub crawl.",
-        "Day 7 (09/10) — Sat: Doi Suthep and waterfall tour, followed by a beer pong tournament.",
+        "Day 4 (28/07) — Wed: Taxi to Sanur then 30-min fast boat to Mad Monkey Nusa Lembongan. Ice baths, saunas, gym and the luxury pool.",
+        "Day 5 (29/07) — Thu: Island Hopping around Nusa Penida (8:30AM–5PM). Mad Monkey Pool Party (6PM–10PM).",
+        "Day 6 (30/07) — Fri: Early fast boat to Gili Trawangan.",
       ],
     },
     {
-      name: "Pai",
-      daysLabel: "Days 8-10",
-      duration: "3 Days (Oct 10-12)",
-      image: paiImg,
+      name: "Gili T",
+      daysLabel: "Days 6-8",
+      duration: "3 Days (Jul 30-Aug 1)",
+      image: giliImg,
       description:
-        "762 turns into the mountains for jungle rafting, tipsy tubing, hot springs and sunsets at Two Huts. Pai hits different.",
+        "Foam parties, boat parties, live DJs, beer pong tournaments and snorkelling with turtles. Gili T does not sleep.",
       highlights: [
-        "Day 8 (10/10) — Sun: 4-hour minibus ride (762 turns!) to Pai. Sunset hike at Pai Canyon.",
-        "Day 9 (11/10) — Mon: Pai's ultimate one-day rafting adventure — jungle cliffs, waterfalls and hot springs. Wind down at Two Huts for sunset.",
-        "Day 10 (12/10) — Tue: Pai's famous tipsy tubing. Final sunset at Two Huts to close out the trip.",
-        "Day 11 (13/10) — Wed: Travel back to Chiang Mai Airport.",
+        "Day 6 (30/07) — Fri: Check into Mad Monkey Gili T just in time for the Foam Party, Live DJ and beer pong tournament.",
+        "Day 7 (31/07) — Sat: Mad Monkey Boat Party (2PM–6PM). Unlimited BBQ and drinks back at MM.",
+        "Day 8 (01/08) — Sun: Monkey Sea Monkey Do snorkelling tour (10:30AM–4PM, max 27). Pack up for the ferry to Kuta Lombok.",
+      ],
+    },
+    {
+      name: "Kuta Lombok",
+      daysLabel: "Days 9-13",
+      duration: "5 Days (Aug 2-8)",
+      image: lombokImg,
+      description:
+        "Full surf camp: breakfast, waves, video analysis with instructors, afternoon sessions and nightly events. Rinse and repeat.",
+      highlights: [
+        "Days 9-12 (02/08–07/08) — Mon-Fri: SURF CAMP. Brekkie then surf 9–10AM at a different beach each day depending on conditions. Lunch + video analysis, afternoon surf, nightly events.",
+        "Day 13 (08/08) — Sat: Farewell and 30-min shuttle to Lombok Airport (LOP).",
       ],
     },
   ],
@@ -162,16 +173,17 @@ export const tripConfig: TripConfig = {
       items: [
         "Mixed or Female shared dorms",
         "Mad Monkey hostels throughout",
-        "Bangkok, Chiang Mai & Pai",
+        "Uluwatu, Nusa Lembongan, Gili T & Kuta Lombok",
       ],
     },
     {
       icon: "bus",
       title: "Transport",
       items: [
-        "All internal transport",
-        "Overnight train Bangkok → Chiang Mai",
-        "Minibus Chiang Mai → Pai → Chiang Mai Airport",
+        "All internal transport between Mad Monkey locations",
+        "Fast boats Sanur → Nusa Lembongan → Gili T",
+        "Ferry Gili T → Kuta Lombok",
+        "Shuttle to Lombok Airport (LOP)",
         "Does NOT include international flights",
       ],
     },
@@ -179,38 +191,40 @@ export const tripConfig: TripConfig = {
       icon: "utensils",
       title: "Tours & Extras",
       items: [
-        "Khao San Road pub crawl",
-        "Chao Phraya canal cruise",
-        "Chiang Mai Grand Canyon Water Park",
-        "Elephant Sanctuary & Sticky Waterfall tour",
-        "Doi Suthep & waterfall tour",
-        "Pai Canyon sunset hike",
-        "Pai one-day rafting adventure",
-        "Pai tipsy tubing",
-        "BBQ buffet + pool / beer pong tournaments",
+        "Welcome Sunset at Panorama Point Uluwatu",
+        "Surf Lesson in Uluwatu",
+        "Mt Batur Sunrise Trek",
+        "Uluwatu Pub Crawl",
+        "Nusa Penida Island Hopping",
+        "Mad Monkey Pool Party (Lembongan)",
+        "Foam Party + Live DJ + beer pong (Gili T)",
+        "Mad Monkey Boat Party + unlimited BBQ & drinks",
+        "Monkey Sea Monkey Do snorkelling tour",
+        "5-day Kuta Lombok Surf Camp with video analysis",
+        "Sauna, hot tub, ice baths, gym & pool access",
         "Group leader in every location",
         "WhatsApp support group",
       ],
     },
   ],
   notIncluded: [
-    { title: "International Flights", description: "Flights to and from Thailand" },
+    { title: "International Flights", description: "Flights to and from Indonesia" },
     { title: "Personal Spend", description: "Meals, drinks, and optional activities not listed in the itinerary" },
-    { title: "Visas", description: "Thailand visa on arrival if required for your passport" },
+    { title: "Visas", description: "Indonesia visa on arrival if required for your passport" },
     { title: "Travel Insurance", description: "Mandatory for all travellers" },
   ],
   whoItsFor: [
     "You're an 18–30 year old social traveller looking for the trip of a lifetime.",
-    "You love jungle adventures, mountain sunsets, and big-night-out energy.",
+    "You love surf, sunsets, island hopping and big-night-out energy.",
     "You want the logistics handled so you can just show up and have fun.",
     "You're a solo traveller who wants instant community and core memories.",
-    "You're a first-time backpacker looking for an easy way into Southeast Asia.",
+    "You're a first-time backpacker looking for an easy way into Indonesia.",
   ],
   bookingSteps: [
     {
       title: "Pay Your Deposit",
       description:
-        "Pay your £163 deposit via the link below by 22/08.",
+        "Pay your £316 deposit via the link below by 20/06.",
     },
     {
       title: "Join the Crew",
@@ -220,21 +234,21 @@ export const tripConfig: TripConfig = {
     {
       title: 'Wait for the "GO"',
       description:
-        "This trip requires 12 confirmed travellers by 22/08. As soon as we hit the minimum, we'll confirm the takeover is ON.",
+        "Spots are limited to 50. Once we hit the minimum, we'll confirm the takeover is ON.",
     },
     {
       title: "Pay Your Instalments",
       rows: [
-        { label: "Deposit", amount: "£163", due: "22/08" },
-        { label: "Instalment 1", amount: "£163", due: "05/09" },
-        { label: "Instalment 2", amount: "£163", due: "26/09" },
+        { label: "Deposit", amount: "£316", due: "20/06" },
+        { label: "Instalment 1", amount: "£316", due: "27/06" },
+        { label: "Instalment 2", amount: "£316", due: "18/07" },
       ],
-      footer: "Total trip cost: £489",
+      footer: "Total trip cost: £950",
     },
     {
       title: "Book Your Flights",
       description:
-        "Do not book flights until the 12-person minimum is officially confirmed!",
+        "Fly into Denpasar (DPS) and out of Lombok (LOP). Do not book flights until the trip is officially confirmed!",
     },
   ],
   faq: [
@@ -244,9 +258,14 @@ export const tripConfig: TripConfig = {
         "No. This trip is beginner-friendly. All transport, accommodation, and activities are organised for you — you just need to show up ready for adventure.",
     },
     {
+      question: "Do I need to know how to surf?",
+      answer:
+        "Not at all. The Uluwatu surf lesson and the 5-day Kuta Lombok surf camp are designed for all levels — beginners welcome. Instructors will take you to beaches that match the conditions and your ability.",
+    },
+    {
       question: "What kind of luggage should I bring?",
       answer:
-        "We recommend a backpack or medium-sized suitcase (hostels and boats are easier to navigate without oversized luggage).",
+        "We recommend a backpack or medium-sized suitcase (hostels and fast boats are easier to navigate without oversized luggage).",
     },
     {
       question: "Can I request to share a room with someone?",
@@ -261,7 +280,7 @@ export const tripConfig: TripConfig = {
     {
       question: "Is this a party trip?",
       answer:
-        "This is a social, high-energy trip with boat parties and nightlife built in — but it also includes beach days, adventure activities, and downtime. You can participate as much or as little as you like.",
+        "It's a social, high-energy trip with pool parties, boat parties and pub crawls built in — but it also includes surf, snorkelling, sunrise treks and downtime. You can participate as much or as little as you like.",
     },
     {
       question: "Can I skip activities if I want to relax?",
@@ -276,18 +295,23 @@ export const tripConfig: TripConfig = {
     {
       question: "Will there be WiFi?",
       answer:
-        "Yes — all Mad Monkey locations have WiFi, though speeds may vary depending on island location.",
+        "Yes — all Mad Monkey locations have WiFi, though speeds may vary on the islands.",
     },
     {
       question: "Is there a payment plan available?",
       answer:
-        "Yes. You can secure your spot with a deposit, then pay the remaining balance in scheduled installments before departure. All payment deadlines will be shared after booking. Missed payments may result in your spot being released.",
+        "Yes. Secure your spot with a £316 deposit by 20/06, then two further instalments of £316 on 27/06 and 18/07. Missed payments may result in your spot being released.",
+    },
+    {
+      question: "Is the itinerary final?",
+      answer:
+        "The itinerary is a guide and is subject to change based on weather, boat schedules and local conditions.",
     },
   ],
   vibeGallery: [
-    { image: vibePubcrawlImg, alt: "Khao San Road pub crawl in Bangkok" },
-    { image: vibeWaterfallImg, alt: "Sticky Waterfall climbing near Chiang Mai" },
-    { image: vibeTubingImg, alt: "Tipsy tubing down a jungle river in Pai" },
+    { image: vibePubcrawlImg, alt: "Uluwatu pub crawl night out" },
+    { image: vibeWaterfallImg, alt: "Island hopping around Nusa Penida" },
+    { image: vibeTubingImg, alt: "Foam party and boat party on Gili T" },
   ],
   footer: {
     copyright: "Powered by Mad Monkey",
