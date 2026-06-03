@@ -97,7 +97,7 @@ export const tripConfig: TripConfig = {
     locationLabel: "across Bali, Gili & Lombok",
     heroImage: heroImg,
   },
-  stripeBookingUrl: "https://buy.stripe.com/aFaeVc2A38ruaik85ke7t20",
+  stripeBookingUrl: "https://buy.stripe.com/5kQ4gy2A337aeyA2L0e7t2R",
   spots: {
     total: 50,
     remainingText: "ONLY 50 SPOTS!",
