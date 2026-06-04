@@ -79,10 +79,10 @@ export interface TripConfig {
 export const tripConfig: TripConfig = {
   creator: {
     name: "MEGA BOYS",
-    instagram: "@megaboys",
-    instagramUrl: "https://instagram.com/megaboys",
-    tiktok: "@megaboys",
-    tiktokUrl: "https://tiktok.com/@megaboys",
+    instagram: "@m3gaboys",
+    instagramUrl: "https://instagram.com/m3gaboys",
+    tiktok: "@_megaboys_",
+    tiktokUrl: "https://tiktok.com/@_megaboys_",
   },
   poweredBy: {
     name: "Mad Monkey",
