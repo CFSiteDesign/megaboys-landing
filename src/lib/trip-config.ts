@@ -103,7 +103,7 @@ export const tripConfig: TripConfig = {
     remainingText: "ONLY 50 SPOTS!",
   },
   pricing: {
-    currency: "£",
+    currency: "$",
     total: 950,
     deposit: 316,
     instalments: [
@@ -224,7 +224,7 @@ export const tripConfig: TripConfig = {
     {
       title: "Pay Your Deposit",
       description:
-        "Pay your £316 deposit via the link below by 20/06.",
+        "Pay your $316 deposit via the link below by 20/06.",
     },
     {
       title: "Join the Crew",
@@ -239,11 +239,11 @@ export const tripConfig: TripConfig = {
     {
       title: "Pay Your Instalments",
       rows: [
-        { label: "Deposit", amount: "£316", due: "20/06" },
-        { label: "Instalment 1", amount: "£316", due: "27/06" },
-        { label: "Instalment 2", amount: "£316", due: "18/07" },
+        { label: "Deposit", amount: "$316", due: "20/06" },
+        { label: "Instalment 1", amount: "$316", due: "27/06" },
+        { label: "Instalment 2", amount: "$316", due: "18/07" },
       ],
-      footer: "Total trip cost: £950",
+      footer: "Total trip cost: $950",
     },
     {
       title: "Book Your Flights",
@@ -300,7 +300,7 @@ export const tripConfig: TripConfig = {
     {
       question: "Is there a payment plan available?",
       answer:
-        "Yes. Secure your spot with a £316 deposit by 20/06, then two further instalments of £316 on 27/06 and 18/07. Missed payments may result in your spot being released.",
+        "Yes. Secure your spot with a $316 deposit by 20/06, then two further instalments of $316 on 27/06 and 18/07. Missed payments may result in your spot being released.",
     },
     {
       question: "Is the itinerary final?",
